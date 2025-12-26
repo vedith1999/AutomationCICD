@@ -25,6 +25,7 @@ public class ErrorValidationsTest extends BaseTest {
 		landingPage.loginApplication("jupaka.40@gmail.com", "Qwerty@12345");
 		Assert.assertEquals("Incorrect email or password.", landingPage.getErrorMessage());
 		
+		//New Command added to test CICD
 
 	}
 	
